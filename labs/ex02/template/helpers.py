@@ -19,7 +19,7 @@ def load_data(sub_sample=True, add_outlier=False):
 
     # sub-sample
     if sub_sample:
-        height = height[::50]
+        height = height[::50] # [start:stop:step]
         weight = weight[::50]
 
     if add_outlier:
